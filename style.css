@@ -1,0 +1,44 @@
+body {
+  background-color: #f7e5c2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #6B4F3F;
+}
+
+button {
+  background-color: #40E0D0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.products {
+  display: flex;           /* تصطف الحاويات بجانب بعض */
+  justify-content: center; /* توسيط الحاويات أفقياً */
+  gap: 20px;               /* مسافة بين الحاويات */
+  flex-wrap: wrap;         /* لو الشاشة صغيرة، الحاويات تنتقل للسطر الثاني */
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  color: #6B4F3F;
+}
